@@ -32,25 +32,18 @@
     <finalName>mtt-app</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
-        <plugin>            
-  <groupId>org.apache.maven.plugins</groupId>
-  <artifactId>maven-war-plugin</artifactId>
-  <configuration>
-    <webXml>src\main\webapp\WEB-INF\web.xml</webXml>        
-  </configuration>
-</plugin>
-        <plugin>
+       <plugin>
           <artifactId>maven-clean-plugin</artifactId>
-          <version>3.1.0</version>
+          <version>3.0.5</version>
         </plugin>
         <!-- see http://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_war_packaging -->
         <plugin>
           <artifactId>maven-resources-plugin</artifactId>
-          <version>3.0.2</version>
+          <version>3.0.5</version>
         </plugin>
         <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
-          <version>3.8.0</version>
+          <version>3.0.5</version>
         </plugin>
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>
@@ -58,7 +51,7 @@
         </plugin>
         <plugin>
           <artifactId>maven-war-plugin</artifactId>
-          <version>3.2.2</version>
+          <version>3.0.5</version>
         </plugin>
         <plugin>
           <artifactId>maven-install-plugin</artifactId>
